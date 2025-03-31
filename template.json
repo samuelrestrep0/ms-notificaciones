@@ -1,0 +1,8 @@
+{
+    "Template": {
+        "TemplateName": "AWS-SES-Template-Confirmacion",
+        "SubjectPart": "{{subject}}",
+        "HtmlPart": "<html><body><h1>{{subject}}</h1><p>{{message}}</p></body></html>",
+        "TextPart": "{{message}}"
+    }
+}
