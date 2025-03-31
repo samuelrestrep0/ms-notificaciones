@@ -1,0 +1,15 @@
+# Evitar archivos de configuración y credenciales
+.env
+
+# Archivos generados por Python
+*.pyc
+__pycache__/
+instance/
+.vscode/
+.idea/
+*.sqlite3
+
+# Dependencias virtualenv
+venv/
+.env/
+.venv/
